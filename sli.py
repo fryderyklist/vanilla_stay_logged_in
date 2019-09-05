@@ -21,16 +21,16 @@ def call_keyboard_or_mouse_func(nr):
 	if(nr is 1):
 		pyautogui.moveTo(ran_bot_coord_x(16, 27), ran_bot_coord_y(796, 811))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(2))
+		time.sleep(ran_bot_det_prot(7))
 		pyautogui.moveTo(ran_bot_coord_x(16, 27), ran_bot_coord_y(796, 811))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(3))
+		time.sleep(ran_bot_det_prot(8))
 		pyautogui.moveTo(ran_bot_coord_x(16, 27), ran_bot_coord_y(796, 811))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(4))
+		time.sleep(ran_bot_det_prot(9))
 		pyautogui.moveTo(ran_bot_coord_x(16, 27), ran_bot_coord_y(796, 811))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(4))
+		time.sleep(ran_bot_det_prot(9))
 		pyautogui.moveTo(ran_bot_coord_x(14, 23), ran_bot_coord_y(870, 889))
 		pyautogui.click()
 	elif(nr is 2):
@@ -39,28 +39,28 @@ def call_keyboard_or_mouse_func(nr):
 	elif(nr is 3):
 		pyautogui.moveTo(ran_bot_coord_x(23, 27), ran_bot_coord_y(800, 805))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(2))
+		time.sleep(ran_bot_det_prot(7))
 		pyautogui.moveTo(ran_bot_coord_x(23, 26), ran_bot_coord_y(800, 802))
 		pyautogui.click()
 	elif(nr is 4):
 		keyboard.press_and_release('o')
-		time.sleep(ran_bot_det_prot(5))
+		time.sleep(ran_bot_det_prot(8))
 		keyboard.press_and_release('o')
 	elif(nr is 5):
 		keyboard.press_and_release('t')
-		time.sleep(ran_bot_det_prot(2))
+		time.sleep(ran_bot_det_prot(9))
 		keyboard.press_and_release('t')
 	elif(nr is 6):
 		pyautogui.moveTo(ran_bot_coord_x(21, 26), ran_bot_coord_y(787, 794))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(2))
+		time.sleep(ran_bot_det_prot(9))
 		pyautogui.moveTo(ran_bot_coord_x(23, 26), ran_bot_coord_y(786, 792))	
 		pyautogui.click()
 	elif(nr is 7):
-		time.sleep(ran_bot_det_prot(2))
+		time.sleep(ran_bot_det_prot(9))
 		pyautogui.moveTo(ran_bot_coord_x(1800, 1826), ran_bot_coord_y(200, 216))
 		pyautogui.click()
-		time.sleep(ran_bot_det_prot(3))		
+		time.sleep(ran_bot_det_prot(8))		
 		pyautogui.moveTo(ran_bot_coord_x(1800, 1826), ran_bot_coord_y(200, 216))
 		pyautogui.click()		
 	elif(nr is 8):
@@ -69,7 +69,7 @@ def call_keyboard_or_mouse_func(nr):
 		keyboard.press_and_release('l')
 	elif(nr is 10):
 		keyboard.press_and_release('p')
-		time.sleep(ran_bot_det_prot(3))
+		time.sleep(ran_bot_det_prot(8))
 		keyboard.press_and_release('p')	
 		
 call_keyboard_or_mouse_func(1)
