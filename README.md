@@ -1,4 +1,4 @@
-# vanilla_stay_logged_in
+# SLI - Stay logged in
 A simple python WOW vanilla script - stay logged in to bypass waiting queues - auto click / press keys
 
 ## Install
@@ -37,14 +37,15 @@ A simple python WOW vanilla script - stay logged in to bypass waiting queues - a
 
 * Execute the script on the screen vanilla is running on
 	* python sli.py
+	* OR "open with python", so you just need to double click in future
 	
 	
 ## Failure Handling
 
 * Script is running without doing anything, but no error messages are shown?
 	 * I guess you have to enable access for assistive devices in the security section of your system preferences - at least for mac
-	
-* Feel free to fix or edit anything else
+
+* Feel free to fix or edit anything
 
 
 
