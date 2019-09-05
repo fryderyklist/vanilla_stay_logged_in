@@ -11,12 +11,18 @@ A simple python WOW vanilla script - stay logged in to bypass waiting queues - a
 ### Mac
 * open terminal
 * Install Python
+	```
 	* brew install python
+	```
 	* or see [here](https://docs.python-guide.org/starting/install3/osx/)
 * CD into vanilla_stay_logged_in folder
+	```
 	* cd path/to/vanilla_stay_logged_in
+	```
 * Install requirements
+	```
 	* pip install -r requirements.txt 
+	```
 
 ### Windows
 
@@ -28,15 +34,21 @@ A simple python WOW vanilla script - stay logged in to bypass waiting queues - a
 	* OR SEE [HERE](https://realpython.com/installing-python/)
 * CD into vanilla_stay_logged_in folder
 	* open Command Line
+		```
 		* cd path/to/vanilla_stay_logged_in
+		```
 		* OR type "cd " and drag and drop folder into the command line
 * Install requirements
+	```
 	* pip install -r requirements.txt
+	```
 	
 ## Run
 
 * Execute the script on the screen vanilla is running on
+	```
 	* python sli.py
+	```
 	* OR "open with python", so you just need to double click in the future
 	
 	
