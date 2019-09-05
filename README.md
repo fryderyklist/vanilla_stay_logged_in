@@ -37,7 +37,7 @@ A simple python WOW vanilla script - stay logged in to bypass waiting queues - a
 
 * Execute the script on the screen vanilla is running on
 	* python sli.py
-	* OR "open with python", so you just need to double click in future
+	* OR "open with python", so you just need to double click in the future
 	
 	
 ## Failure Handling
